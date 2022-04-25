@@ -16,7 +16,7 @@ Bienvenue
             L’externalisation des achats signifie que nous achetons et revendons les produits ou services pour votre comptes. Cela réduit fortement votre base fournisseurs et augmente la gouvernance de vos achats, et votre productivité.</p>
           <p>
             <a href="{{URL('login')}}" class="btn btn-primary my-2">j'ai un compte</a>
-            <a href="#" class="btn btn-secondary my-2">Je suis Nouveau</a>
+            <a href="{{URL('register')}}" class="btn btn-secondary my-2">Je suis Nouveau</a>
           </p>
         </div>
       </div>
