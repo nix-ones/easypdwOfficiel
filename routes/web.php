@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('accueil');
 });
 Route::get('login', [RegisterController::class, 'index']);
-Route::get('register', [RegisterController::class, 'form']);
+Route::POST('register', [RegisterController::class, 'create']);
+Route::get('user', [RegisterController::class, 'store']);

@@ -15,10 +15,7 @@ class RegisterController extends Controller
     {
         return view('login');
     }
-    public function form()
-    {
-        return view('formR');
-    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -26,7 +23,7 @@ class RegisterController extends Controller
      */
     public function create()
     {
-        //
+        return view('formR');
     }
 
     /**
@@ -37,7 +34,7 @@ class RegisterController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        echo('test');
     }
 
     /**

@@ -5,10 +5,12 @@
 @endsection
 
 @section('contenu')
+
 <div class="container-fluid">
     <section class="row">
         <section class="col-12 col-sm-6 col-md-3">
-            <form class="row g-3">
+            <form class="row g-3"action="user" method="POST" >
+               @csrf
                 <div class="col-md-6">
                   <label for="inputEmail4" class="form-label">Nom</label>
                   <input type="text" name="nom" class="form-control" id="inputEmail4">
@@ -40,7 +42,7 @@
                     </div>
                     <div class="col-md-2">
                       <label for="inputZip" class="form-label">CP</label>
-                      <input type="number" name="cp" class="form-control" id="inputZip">
+                      <input type="text" name="cp" class="form-control" id="inputZip">
                     </div>
                     <div class="col-md-4">
                       <label for="inputState" class="form-label">Sexe</label>

@@ -8,13 +8,15 @@ Bienvenue
 
     <section class="py-5 text-center container">
       <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">Nix-One Shongo</h1>
-          <p class="lead text-muted"> <h1>L’externalisation des achats ?</h1>
+        <div class="col-lg-10 col-md-12 mx-auto">
 
 
-            L’externalisation des achats signifie que nous achetons et revendons les produits ou services pour votre comptes. Cela réduit fortement votre base fournisseurs et augmente la gouvernance de vos achats, et votre productivité.</p>
+            En tant que plateforme leader nous vendons les article informatique et livre dans notre boutique en ligne.                Nous soutenons une mode produite, consommée et vendue de manière responsable. Nous sommes convaincus que cet engagement sera payant pour nous tous à long terme.
+            Nous soutenons une mode produite, consommée et vendue de manière responsable. Nous sommes convaincus que cet engagement sera payant pour nous tous à long terme.
+
           <p>
+
+
             <a href="{{URL('login')}}" class="btn btn-primary my-2">j'ai un compte</a>
             <a href="{{URL('register')}}" class="btn btn-secondary my-2">Je suis Nouveau</a>
           </p>
